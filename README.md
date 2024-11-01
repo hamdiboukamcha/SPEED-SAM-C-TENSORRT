@@ -1,4 +1,15 @@
 # SPEED SAM C++ TENSORRT
+![SAM C++ TENSORRT](assets/speed_sam_cpp_tenosrrt.PNG)
+
+<a href="https://github.com/hamdiboukamcha/SPEED-SAM-C-TENSORRT" style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/GitHub-Repo-blue?style=flat&logo=GitHub' alt='GitHub'>
+  </a>
+
+  <a href="https://github.com/hamdiboukamcha/SPEED-SAM-C-TENSORRT?tab=GPL-3.0-1-ov-file" style="margin: 0 2px;">
+    <img src='https://img.shields.io/badge/License-CC BY--NC--4.0-lightgreen?style=flat&logo=Lisence' alt='License'>
+  </a>
+
+## 🌐 Overview
 A high-performance C++ implementation for SAM (segment anything model) using TensorRT and CUDA, optimized for real-time image segmentation tasks.
 
 ## 📢 Updates
@@ -7,6 +18,9 @@ A high-performance C++ implementation for SAM (segment anything model) using Ten
     FP16 Precision: Choose between FP16 and FP32 for speed and precision balance.
     Dynamic Shape Support: Efficient handling of variable input sizes using optimization profiles.
     CUDA Optimization: Leverage CUDA for preprocessing and efficient memory handling.
+
+## 📢 Performance 
+ ### Infernce Time 
 
 | Component                  | SpeedSAM |
 |----------------------------|-----------|
@@ -19,7 +33,8 @@ A high-performance C++ implementation for SAM (segment anything model) using Ten
 | **Whole Pipeline (Enc+Dec)** |         |
 | Parameters                  | 9.66M     |
 | Speed                       | 12ms      |
-
+### Results
+![SPEED-SAM-C-TENSORRT RESULT](assets/Speed_SAM_Results.JPG)
 
 ## 📂 Project Structure
     SPEED-SAM-CPP-TENSORRT/
