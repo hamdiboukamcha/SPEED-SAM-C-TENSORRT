@@ -1,14 +1,27 @@
 # SPEED SAM C++ TENSORRT
 A high-performance C++ implementation for SAM (segment anything model) using TensorRT and CUDA, optimized for real-time image segmentation tasks.
 
-# 📢 Updates
+## 📢 Updates
     Model Conversion: Build TensorRT engines from ONNX models for accelerated inference.
     Segmentation with Points and BBoxes: Easily segment images using selected points or bounding boxes.
     FP16 Precision: Choose between FP16 and FP32 for speed and precision balance.
     Dynamic Shape Support: Efficient handling of variable input sizes using optimization profiles.
     CUDA Optimization: Leverage CUDA for preprocessing and efficient memory handling.
 
-# 📂 Project Structure
+| Component                  | SpeedSAM |
+|----------------------------|-----------|
+| **Image Encoder**          |           |
+| Parameters                  | 5M        |
+| Speed                       | 8ms       |
+| **Mask Decoder**           |           |
+| Parameters                  | 3.876M    |
+| Speed                       | 4ms       |
+| **Whole Pipeline (Enc+Dec)** |         |
+| Parameters                  | 9.66M     |
+| Speed                       | 12ms      |
+
+
+## 📂 Project Structure
     SPEED-SAM-CPP-TENSORRT/
     ├── include
     │   ├── config.h          # Model configuration and macros
