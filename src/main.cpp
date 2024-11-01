@@ -4,7 +4,7 @@
 int main()
 {
     // Option : Set the running Path
-    std::string path = "C:/Users/HD/Downloads/nanosam-cpp-main/nanosam-cpp-main/SAM/Build/Debug/";
+    std::string path = "";
 
     // Build the engines from onnx files
     SpeedSam Speedsam(path + "data/resnet18_image_encoder.onnx", path + "data/mobile_sam_mask_decoder.onnx");
