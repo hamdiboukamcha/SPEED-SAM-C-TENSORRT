@@ -7,7 +7,7 @@ int main()
     std::string path = "";
 
     // Build the engines from onnx files
-    SpeedSam Speedsam(path + "data/resnet18_image_encoder.onnx", path + "data/mobile_sam_mask_decoder.onnx");
+    SpeedSam Speedsam(path + "model/SAM_encoder.onnx", path + "model/SAM_mask_decoder.onnx");
 
     /*Segmentation examples */
     
